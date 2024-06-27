@@ -147,7 +147,7 @@ Sign in to your AWS account as an IAM user using your account ID or alias, and t
    - **Key Pair**: Create a new key pair
    - **Network Settings**: 
      - **VPC**: `WordPress-VPC`
-     - **Subnet**: `WordPress-AWS-Subnet01`
+     - **Subnet**: `WordPress-subnet-01`
      - **Auto-assign public IP**: Enable
      - **Security Group**: Select `WordPress-SG`
 5. Click **Launch instance**.
@@ -155,7 +155,7 @@ Sign in to your AWS account as an IAM user using your account ID or alias, and t
 ### Step 8: Access WordPress Webpage & Retrieve WordPress Credentials
 
 1. Navigate to the EC2 dashboard and click on **Instances**.
-2. Select your WordPress instance (`WordPress-Server`) and copy the public IPv4 address. 
+2. Select your WordPress instance (`WordPress-EC2-Instance-01`) and copy the public IPv4 address. 
 
 ![](images/Wordpress-page.png)
 
