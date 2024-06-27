@@ -15,6 +15,7 @@
     - [Step 8: Access WordPress Webpage \& Retrieve WordPress Credentials](#step-8-access-wordpress-webpage--retrieve-wordpress-credentials)
     - [Step 9: Retrieve WordPress Credentials](#step-9-retrieve-wordpress-credentials)
     - [Step 10: Login to your WordPress Application](#step-10-login-to-your-wordpress-application)
+    - [Clean up](#clean-up)
 
 
 ### Introduction
@@ -141,7 +142,7 @@ Sign in to your AWS account as an IAM user using your account ID or alias, and t
 3. Once on the EC2 dashboard, click **Launch instance**.
 4. Configure the instance settings:
    - **Name**: `WordPress-EC2-Instance-01`
-   - **AMI**: WordPress Certified by Bitnami and Automatic (Free Tier Eligible). **Click subscribe on instance launch **
+   - **AMI**: WordPress Certified by Bitnami and Automatic (Free Tier Eligible). **Click subscribe on instance launch**
    - **Instance Type**: t2.micro
    - **Key Pair**: Create a new key pair
    - **Network Settings**: 
@@ -183,6 +184,10 @@ Paste the IP address in your web browser with `/wp-admin` at the end to access t
 
 ![](images/logged%20in.png)
 
+
+### Clean up
+
+To avoid unnecessary charges, terminate the EC2 instance and delete the VPC by ensuring all associated resources (subnets, internet gateway, route tables, security groups) are removed. 
 
 
 
