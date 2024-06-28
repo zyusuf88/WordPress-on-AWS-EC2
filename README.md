@@ -2,7 +2,6 @@
 - [Hosting WordPress on an EC2 Instance](#hosting-wordpress-on-an-ec2-instance)
     - [Introduction](#introduction)
     - [Prerequisites](#prerequisites)
-    - [Key AWS Components](#key-aws-components)
     - [What is EC2?](#what-is-ec2)
     - [Step 1: Login to your AWS Account](#step-1-login-to-your-aws-account)
     - [Step 2: Create your AWS VPC](#step-2-create-your-aws-vpc)
@@ -26,8 +25,6 @@ Hosting WordPress on AWS EC2 allows you to leverage the scalability, reliability
 - AWS Account
 - Basic understanding of networking concepts
 - Familiarity with the AWS Management Console
-
-### Key AWS Components
 
 
 ### What is EC2?
