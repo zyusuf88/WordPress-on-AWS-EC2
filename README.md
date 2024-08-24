@@ -21,7 +21,7 @@
 Hosting WordPress on AWS EC2 allows you to leverage the scalability, reliability, and security of Amazon Web Services. This guide will go through the key AWS concepts such as EC2, VPC, subnet, route table, and security group, and how they all interlink to create a secure and scalable environment for your application.
 
 > [!NOTE]
-> This section covers deploying WordPress manually on EC2, including server setup, software installation, and configuration. To see the **automated Terraform version**, click [here](https://github.com/zyusuf88/Deploying-WordPress-with-Terraform).
+> This section covers deploying WordPress manually on EC2. To see the **automated Terraform version**, click [here](https://github.com/zyusuf88/Deploying-WordPress-with-Terraform).
 
 
 ### Prerequisites
